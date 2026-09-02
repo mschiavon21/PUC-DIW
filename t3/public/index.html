@@ -1,0 +1,588 @@
+```html
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="VivaObra: descubra pessoas e produções que transformam ideias em cultura."
+    >
+
+    <title>VivaObra | Pessoas e Produções</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <a
+            class="brand"
+            href="#inicio"
+            aria-label="VivaObra início"
+        >
+            <span class="brand-mark">V</span>
+            <span>VivaObra</span>
+        </a>
+
+        <nav
+            class="main-nav"
+            aria-label="Navegação principal"
+        >
+            <a class="is-active" href="#inicio">
+                Início
+            </a>
+
+            <a href="#pessoas">
+                Pessoas
+            </a>
+
+            <a href="#producoes">
+                Produções
+            </a>
+
+            <a href="#sobre">
+                Sobre o projeto
+            </a>
+        </nav>
+
+        <a
+            class="header-action"
+            href="#cadastro"
+        >
+            Compartilhe uma obra
+            <span aria-hidden="true">↗</span>
+        </a>
+
+    </header>
+
+
+    <main id="inicio">
+
+        <section
+            class="hero section-shell"
+            aria-labelledby="hero-title"
+        >
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    Pessoas &amp; produções
+                </p>
+
+                <h1 id="hero-title">
+                    Ideias ganham vida quando encontram
+                    <em>quem</em>
+                    as cria.
+                </h1>
+
+                <p class="hero-text">
+                    Um espaço para conhecer autores, artistas e pesquisadores
+                    e acompanhar as obras e projetos que estão movimentando a cultura.
+                </p>
+
+                <a
+                    class="button button-primary"
+                    href="#producoes"
+                >
+                    Explorar produções
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+
+            <div
+                class="hero-visual"
+                aria-label="Colagem de uma autora trabalhando em seu estúdio"
+            >
+
+                <div class="hero-image-frame">
+
+                    <img
+                        src="https://picsum.photos/id/453/900/1100"
+                        alt="Pessoa escrevendo em um caderno em um estúdio iluminado"
+                    >
+
+                </div>
+
+
+                <div class="floating-note">
+
+                    <span class="note-dot"></span>
+
+                    <strong>
+                        Histórias reais
+                    </strong>
+
+                    <small>
+                        feitas por pessoas
+                    </small>
+
+                </div>
+
+
+                <div
+                    class="scribble"
+                    aria-hidden="true"
+                >
+                    ✦
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="intro section-shell"
+            id="sobre"
+            aria-labelledby="intro-title"
+        >
+
+            <div>
+
+                <p class="eyebrow">
+                    A proposta
+                </p>
+
+                <h2 id="intro-title">
+                    Por trás de toda produção, existe uma pessoa.
+                </h2>
+
+            </div>
+
+
+            <p>
+                O VivaObra aproxima criadores e suas produções em uma experiência
+                editorial simples. Explore trajetórias, descubra novos trabalhos
+                e salve referências para revisitar depois.
+            </p>
+
+        </section>
+
+
+        <section
+            class="featured section-shell"
+            id="pessoas"
+            aria-labelledby="people-title"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Em destaque
+                    </p>
+
+                    <h2 id="people-title">
+                        Pessoas para conhecer
+                    </h2>
+
+                </div>
+
+
+                <a
+                    class="text-link"
+                    href="#pessoas"
+                >
+                    Ver todas
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+
+            <div class="person-grid">
+
+
+                <article class="person-card">
+
+                    <img
+                        src="https://picsum.photos/id/64/700/800"
+                        alt="Retrato de Ana Martins"
+                    >
+
+                    <div class="person-content">
+
+                        <p class="card-kicker">
+                            Escritora · São Paulo
+                        </p>
+
+                        <h3>
+                            Ana Martins
+                        </h3>
+
+                        <p>
+                            Memória, cidade e as pequenas revoluções do cotidiano.
+                        </p>
+
+                        <a
+                            href="#producoes"
+                            class="card-link"
+                        >
+                            Ver produções
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="person-card">
+
+                    <img
+                        src="https://picsum.photos/id/91/700/800"
+                        alt="Retrato de Lucas Ferreira"
+                    >
+
+                    <div class="person-content">
+
+                        <p class="card-kicker">
+                            Pesquisador · Recife
+                        </p>
+
+                        <h3>
+                            Lucas Ferreira
+                        </h3>
+
+                        <p>
+                            Pesquisa e traduz saberes sobre território e identidade.
+                        </p>
+
+                        <a
+                            href="#producoes"
+                            class="card-link"
+                        >
+                            Ver produções
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="person-card">
+
+                    <img
+                        src="https://picsum.photos/id/342/700/800"
+                        alt="Retrato de Joana Lima"
+                    >
+
+                    <div class="person-content">
+
+                        <p class="card-kicker">
+                            Artista visual · Belo Horizonte
+                        </p>
+
+                        <h3>
+                            Joana Lima
+                        </h3>
+
+                        <p>
+                            Imagens que cruzam natureza, afeto e experimentação.
+                        </p>
+
+                        <a
+                            href="#producoes"
+                            class="card-link"
+                        >
+                            Ver produções
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="productions section-shell"
+            id="producoes"
+            aria-labelledby="production-title"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Agora no acervo
+                    </p>
+
+                    <h2 id="production-title">
+                        Produções recentes
+                    </h2>
+
+                </div>
+
+
+                <a
+                    class="text-link"
+                    href="#producoes"
+                >
+                    Ver catálogo
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+
+            <div class="production-layout">
+
+
+                <article class="production-feature">
+
+                    <img
+                        src="https://picsum.photos/id/1074/1200/760"
+                        alt="Capa visual do projeto Cartografias do Afeto"
+                    >
+
+                    <div class="production-overlay">
+
+                        <p class="card-kicker">
+                            Projeto · Lucas Ferreira
+                        </p>
+
+                        <h3>
+                            Cartografias do Afeto
+                        </h3>
+
+                        <p>
+                            Uma série documental sobre as memórias
+                            que cabem em um lugar.
+                        </p>
+
+                        <a
+                            class="button button-light"
+                            href="#cadastro"
+                        >
+                            Conhecer projeto
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <div class="production-list">
+
+
+                    <article>
+
+                        <span class="list-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <p class="card-kicker">
+                                Livro · Ana Martins
+                            </p>
+
+                            <h3>
+                                O lado de dentro da rua
+                            </h3>
+
+                            <p>
+                                Crônicas, 2026
+                            </p>
+
+                        </div>
+
+                        <span class="list-arrow">
+                            ↗
+                        </span>
+
+                    </article>
+
+
+                    <article>
+
+                        <span class="list-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <p class="card-kicker">
+                                Exposição · Joana Lima
+                            </p>
+
+                            <h3>
+                                Verde que inventa
+                            </h3>
+
+                            <p>
+                                Artes visuais, 2026
+                            </p>
+
+                        </div>
+
+                        <span class="list-arrow">
+                            ↗
+                        </span>
+
+                    </article>
+
+
+                    <article>
+
+                        <span class="list-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <p class="card-kicker">
+                                Artigo · Lucas Ferreira
+                            </p>
+
+                            <h3>
+                                O mapa também sente
+                            </h3>
+
+                            <p>
+                                Pesquisa, 2026
+                            </p>
+
+                        </div>
+
+                        <span class="list-arrow">
+                            ↗
+                        </span>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="signup section-shell"
+            id="cadastro"
+            aria-labelledby="signup-title"
+        >
+
+            <div>
+
+                <p class="eyebrow">
+                    Faça parte
+                </p>
+
+                <h2 id="signup-title">
+                    Receba novas histórias na sua caixa de entrada.
+                </h2>
+
+            </div>
+
+
+            <form class="signup-form">
+
+                <label for="name">
+                    Seu nome
+                </label>
+
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Como podemos chamar você?"
+                    required
+                >
+
+
+                <label for="email">
+                    Seu e-mail
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="voce@email.com"
+                    required
+                >
+
+
+                <button
+                    class="button button-primary"
+                    type="submit"
+                >
+                    Quero acompanhar
+                    <span aria-hidden="true">→</span>
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div>
+
+            <a
+                class="brand"
+                href="#inicio"
+            >
+                <span class="brand-mark">
+                    V
+                </span>
+
+                <span>
+                    VivaObra
+                </span>
+            </a>
+
+            <p>
+                Um catálogo vivo de pessoas e produções.
+            </p>
+
+        </div>
+
+
+        <div class="footer-meta">
+
+            <p>
+                Proposta 1 · Pessoas e Produções
+            </p>
+
+            <p>
+                Projeto acadêmico de HTML e CSS
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
