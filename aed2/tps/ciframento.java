@@ -1,9 +1,9 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Main {
+public class ciframento {
 
-    public static String cifrar(String texto) {
+    public static String cifra(String texto) {
         String resultado = "";
 
         for (int i = 0; i < texto.length(); i++) {
@@ -27,7 +27,7 @@ public class Main {
         String linha;
 
         while ((linha = br.readLine()) != null) {
-            System.out.println(cifrar(linha));
+            System.out.println(cifra(linha));
         }
     }
 }
