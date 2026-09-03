@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Currículo de Miguel — estudante de Ciência da Computação na PUC Minas, com interesse em desenvolvimento de software e cibersegurança.">
+    <meta name="color-scheme" content="light dark">
+    <title>Miguel — Currículo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topbar">
+        <div class="container topbar-inner">
+
+            <a class="brand" href="#topo" aria-label="Início">
+                <span class="brand-dot" aria-hidden="true"></span>
+                miguel<span class="brand-muted">@dev</span><span class="brand-muted">:~$</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+                <span></span><span></span><span></span>
+                <span class="sr-only">Abrir menu</span>
+            </button>
+
+            <nav id="siteNav" class="site-nav">
+                <a href="#sobre" data-label="sobre">sobre</a>
+                <a href="#formacao" data-label="formacao">formação</a>
+                <a href="#experiencia" data-label="experiencia">experiência</a>
+                <a href="#habilidades" data-label="habilidades">habilidades</a>
+                <a href="#idiomas" data-label="idiomas">idiomas</a>
+                <a href="#contato" data-label="contato">contato</a>
+            </nav>
+
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema claro/escuro" aria-pressed="false">
+                <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+                <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
+            </button>
+
+        </div>
+    </header>
+
+    <main id="conteudo" class="container" id="topo">
+
+        <section id="sobre" class="hero">
+
+            <div class="hero-text">
+                <p class="eyebrow"></p>
+
+                <h1 class="terminal-line">
+                    <span class="terminal-prompt"></span>
+                    <span id="typedText" class="typed"></span><span class="cursor" aria-hidden="true"></span>
+                </h1>
+
+                <p class="lede">
+                    Estudante de <strong>Ciência da Computação</strong> na PUC Minas,
+                    com interesse em desenvolvimento de software, estruturas de dados
+                    e cibersegurança.
+                </p>
+
+                <p>
+                    Busco constantemente aprimorar meus conhecimentos e construir
+                    soluções com diferentes tecnologias — do algoritmo em C++ até
+                    a interface que o usuário final enxerga.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#contato">falar comigo</a>
+                    <a class="btn btn-ghost" href="https://github.com/miguel-dev-pucminas" target="_blank" rel="noopener">ver github</a>
+                </div>
+            </div>
+
+            <div class="hero-photo">
+                <div class="photo-frame">
+                    <img src="foto.jpg" alt="Foto de Miguel" width="320" height="320">
+                </div>
+                <p class="photo-caption">matrícula <span class="mono">914079</span> · PUC Minas / ICEI</p>
+            </div>
+
+        </section>
+
+
+        <section id="formacao" class="block">
+            <p class="eyebrow"></p>
+            <h2>Formação</h2>
+
+            <div class="card">
+                <div class="card-head">
+                    <h3>Ciência da Computação</h3>
+                    <span class="tag">em andamento</span>
+                </div>
+
+                <p><strong>PUC Minas</strong> — ICEI (Instituto de Ciências Exatas e Informática)</p>
+                <p>Graduação em Ciência da Computação.</p>
+                <p>Área de interesse: desenvolvimento de software, tecnologia e cibersegurança.</p>
+            </div>
+        </section>
+
+
+        <section id="experiencia" class="block">
+            <p class="eyebrow"></p>
+            <h2>Experiência</h2>
+
+            <div class="card">
+                <div class="card-head">
+                    <h3>Projetos de desenvolvimento de software</h3>
+                </div>
+
+                <p>
+                    Projetos acadêmicos e pessoais envolvendo programação,
+                    desenvolvimento web e criação de sistemas.
+                </p>
+
+                <ul class="check-list">
+                    <li>Desenvolvimento de páginas web com HTML e CSS</li>
+                    <li>Aplicações e interfaces com JavaScript e React</li>
+                    <li>Programação em C e C++, com foco em estruturas de dados</li>
+                    <li>Controle de versão com Git e GitHub</li>
+                    <li>Projetos utilizando bancos de dados relacionais e não relacionais</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="block">
+            <p class="eyebrow"></p>
+            <h2>Habilidades</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>Programação</h3>
+                    <ul class="pill-list">
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Desenvolvimento web</h3>
+                    <ul class="pill-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Ferramentas</h3>
+                    <ul class="pill-list">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Banco de dados</h3>
+                    <ul class="pill-list">
+                        <li>SQL</li>
+                        <li>NoSQL</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="idiomas" class="block">
+            <p class="eyebrow"></p>
+            <h2>Idiomas</h2>
+
+            <div class="card lang-card">
+                <div class="lang-row">
+                    <span>Português</span>
+                    <span class="lang-level" data-level="5">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </span>
+                    <span class="lang-tag">nativo</span>
+                </div>
+                <div class="lang-row">
+                    <span>Inglês</span>
+                    <span class="lang-level" data-level="3">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </span>
+                    <span class="lang-tag">intermediário</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="objetivo" class="block">
+            <p class="eyebrow"></p>
+            <h2>Objetivo</h2>
+
+            <div class="card">
+                <p>
+                    Busco uma oportunidade na área de tecnologia e cibersegurança,
+                    onde possa aplicar meus conhecimentos em programação, adquirir
+                    experiência profissional e contribuir para projetos e soluções
+                    de qualidade.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="contato" class="block block-contato">
+            <p class="eyebrow"></p>
+            <h2>Vamos conversar</h2>
+
+            <div class="contato-grid">
+
+                <a class="contato-card" href="mailto:miguel.dev@pucminas.com">
+                    <span class="contato-label">e-mail</span>
+                    <span class="contato-value">miguel.dev@pucminas.com</span>
+                </a>
+
+                <a class="contato-card" href="tel:+553198887777">
+                    <span class="contato-label">telefone</span>
+                    <span class="contato-value">(31) 98888-7777</span>
+                </a>
+
+                <a class="contato-card" href="https://github.com/miguel-dev-pucminas" target="_blank" rel="noopener">
+                    <span class="contato-label">github</span>
+                    <span class="contato-value">github.com/miguel-dev-pucminas</span>
+                </a>
+
+                <a class="contato-card" href="https://www.linkedin.com/in/miguel-dev-pucminas/" target="_blank" rel="noopener">
+                    <span class="contato-label">linkedin</span>
+                    <span class="contato-value">linkedin.com/in/miguel-dev-pucminas</span>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p class="mono">© 2026 Miguel — currículo vitae</p>
+        <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">↑ topo</button>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
